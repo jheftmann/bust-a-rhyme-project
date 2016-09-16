@@ -1,2 +1,18 @@
 Yay it’s Friday!
+<<<<<<< HEAD
 Time to Party!
+=======
+It’s the best day!
+Its when I get my pay. :) 
+So I can spend it all and par-tay.
+
+I’m gonna go home and see my boo.
+I hope I don’t have to poo.
+nine times out of ten I need to number 2 
+Ran not of toilet paper what do I do?
+Darkness resides where my heart should
+Fuck it i won’t clean my poo
+Hey guys, why don’t we go to a karaoke.
+No, thanks.
+Hey this is Patrick
+>>>>>>> 52e8397142d2eacf9feafb45ee0927d9bca481a6
