@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Project 3</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+
+		<script type="text/javascript"> // src="script.">
+			$(document).ready(function(){
+			// $("p").hover(function(){
+			// 		$("p").css("background-color", "#ff4800")
+			// });
+			// $("#button1").ready(function(){
+			// 	$("div").animate({left: '550px'});
+
+
+
+
+				console.log("Hi guys its sneaky Pat");
+				var vocab = "This is part 1";
+
+				console.log(vocab + " this is part 2");
+
+
+			alert("Lets learn RGB values!");
+
+			var answer = prompt("Are you ready to learn this?");
+			if (answer == "yes"){
+				$("body").alert("Let's learn RGB values")
+			} else {
+				$("body").alert("Okay, Goodbye!");
+			}
+
+
+
+			function yellowRGB() {
+    		document.getElementById("questions").innerHTML = "RGB(255,255,0)";
+				$("button1").click(function(){
+					$("questions").fadeOut()
+					$("questions").fadeIn()
+				}
+			}
+
+			function greenRGB() {
+    		document.getElementById("questions").innerHTML = "RGB(0,255,0)";
+    		}
+
+    		function blueRGB() {
+    		document.getElementById("questions").innerHTML = "RGB(0,0,255)";
+			}
+
+			function nextsettodays() {
+    		document.getElementById("questions").innerHTML = "Now lets do some arithmetics questions";
+			}
+
+
+
+			});
+			</script>
+
+		<p> Make me hover RED</p>
+
+		<p id="questions">What are the RGB values of these colors?</p>
+		<div style="background-color: red; height: 100px; width: 100px; position: absolute; border-radius: 50px;></div>
+		<button id="button1" type="button" onclick="yellowRGB()">Yellow</button>
+		<button id="button1" type="button" onclick="greenRGB()">Green</button>
+		<button id="button1" type="button" onclick="blueRGB()">Blue it</button>
+		<button id="button1" type="button" onclick="nextsetqs ()">NEXT QS</button>
+
+
+	</body>
+</html>
